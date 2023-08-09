@@ -7,10 +7,11 @@
     <meta name="keywords" content="Ogani, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ogani | Template</title>
+    <title>Sagar Ventures</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -21,7 +22,103 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get the LIGHTS category link
+            var lightsLink = document.querySelector(".lights-category > a");
+            var lightsSubcategories = document.querySelector(".lights-subcategories");
+            
+            // Get the KITCHEN category link
+            var kitchenLink = document.querySelector(".kitchenappliances-category > a");
+            var kitchenSubcategories = document.querySelector(".kitchenappliances-subcategories");
+
+            // Get the GARMENT category link
+            var garmentLink = document.querySelector(".garment-category > a");
+            var garmentSubcategories = document.querySelector(".garment-subcategories");
+            
+            // Get the homecare category link
+            var homecareLink = document.querySelector(".homecare-category > a");
+            var homecareSubcategories = document.querySelector(".homecare-subcategories");
+
+            // Get the malegrooming category link
+            var malegroomingLink = document.querySelector(".malegrooming-category > a");
+            var malegroomingSubcategories = document.querySelector(".malegrooming-subcategories");
+            
+            // Get the beauty category link
+            var beautyLink = document.querySelector(".beauty-category > a");
+            var beautySubcategories = document.querySelector(".beauty-subcategories");
+
+            // Get the oralhealthcare category link
+            var oralhealthcareLink = document.querySelector(".oralhealthcare-category > a");
+            var oralhealthcareSubcategories = document.querySelector(".oralhealthcare-subcategories");
+            
+            // Get the motherandchildcare category link
+            var motherandchildcareLink = document.querySelector(".motherandchildcare-category > a");
+            var motherandchildcareSubcategories = document.querySelector(".motherandchildcare-subcategories");
+
+            // Get the solarlight category link
+            var solarlightLink = document.querySelector(".solarlight-category > a");
+            var solarlightSubcategories = document.querySelector(".solarlight-subcategories");
+            
+            // Add a click event listener to the LIGHTS category link
+            lightsLink.addEventListener("click", function(e) {
+                e.preventDefault();
+                lightsSubcategories.style.display = lightsSubcategories.style.display === "none" ? "block" : "none";
+            });
+            
+            // Add a click event listener to the KITCHEN category link
+            kitchenLink.addEventListener("click", function(e) {
+                e.preventDefault();
+                kitchenSubcategories.style.display = kitchenSubcategories.style.display === "none" ? "block" : "none";
+            });
+
+            // Add a click event listener to the Garment category link
+            garmentLink.addEventListener("click", function(e) {
+                e.preventDefault();
+                garmentSubcategories.style.display = garmentSubcategories.style.display === "none" ? "block" : "none";
+            });
+            
+            // Add a click event listener to the homecare category link
+            homecareLink.addEventListener("click", function(e) {
+                e.preventDefault();
+                homecareSubcategories.style.display = homecareSubcategories.style.display === "none" ? "block" : "none";
+            });
+
+            // Add a click event listener to the malegrooming category link
+            malegroomingLink.addEventListener("click", function(e) {
+                e.preventDefault();
+                malegroomingSubcategories.style.display = malegroomingSubcategories.style.display === "none" ? "block" : "none";
+            });
+
+            // Add a click event listener to the beauty category link
+            beautyLink.addEventListener("click", function(e) {
+                e.preventDefault();
+                beautySubcategories.style.display = beautySubcategories.style.display === "none" ? "block" : "none";
+            });
+
+            // Add a click event listener to the oralhealthcare category link
+            oralhealthcareLink.addEventListener("click", function(e) {
+                e.preventDefault();
+                oralhealthcareSubcategories.style.display = oralhealthcareSubcategories.style.display === "none" ? "block" : "none";
+            });
+            
+            // Add a click event listener to the motherandchildcare category link
+            motherandchildcareLink.addEventListener("click", function(e) {
+                e.preventDefault();
+                motherandchildcareSubcategories.style.display = motherandchildcareSubcategories.style.display === "none" ? "block" : "none";
+            });
+
+            // Add a click event listener to the solarlight category link
+            solarlightLink.addEventListener("click", function(e) {
+                e.preventDefault();
+                solarlightSubcategories.style.display = solarlightSubcategories.style.display === "none" ? "block" : "none";
+            });
+        });
+    </script>
+
 </head>
+
 
 <body>
     <!-- Page Preloder -->
@@ -33,16 +130,16 @@
     <div class="humberger__menu__overlay"></div>
     <div class="humberger__menu__wrapper">
         <div class="humberger__menu__logo">
-            <a href="#"><img src="img/logo.png" alt=""></a>
+            <H1>Sagar Ventures</H1>
         </div>
-        <div class="humberger__menu__cart">
+        <!-- <div class="humberger__menu__cart">
             <ul>
                 <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
                 <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
             </ul>
             <div class="header__cart__price">item: <span>$150.00</span></div>
-        </div>
-        <div class="humberger__menu__widget">
+        </div> -->
+        <!-- <div class="humberger__menu__widget">
             <div class="header__top__right__language">
                 <img src="img/language.png" alt="">
                 <div>English</div>
@@ -55,7 +152,7 @@
             <div class="header__top__right__auth">
                 <a href="#"><i class="fa fa-user"></i> Login</a>
             </div>
-        </div>
+        </div> -->
         <nav class="humberger__menu__nav mobile-menu">
             <ul>
                 <li class="active"><a href="./index.html">Home</a></li>
@@ -72,7 +169,7 @@
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
-        <div id="mobile-menu-wrap"></div>
+        <!-- <div id="mobile-menu-wrap"></div>
         <div class="header__top__right__social">
             <a href="#"><i class="fa fa-facebook"></i></a>
             <a href="#"><i class="fa fa-twitter"></i></a>
@@ -84,7 +181,7 @@
                 <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
                 <li>Free Shipping for all Order of $99</li>
             </ul>
-        </div>
+        </div> -->
     </div>
     <!-- Humberger End -->
 
@@ -94,14 +191,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="header__top__left">
+                        <!-- <div class="header__top__left">
                             <ul>
                                 <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
                                 <li>Free Shipping for all Order of $99</li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
-                    <div class="col-lg-6">
+                    <!-- <div class="col-lg-6">
                         <div class="header__top__right">
                             <div class="header__top__right__social">
                                 <a href="#"><i class="fa fa-facebook"></i></a>
@@ -120,7 +217,7 @@
                             </div>
                             <div class="header__top__right__auth">
                                 <a href="#"><i class="fa fa-user"></i> Login</a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -130,7 +227,7 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="header__logo">
-                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                        <h1 class="Tophead">Sagar Ventures</h1>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -151,14 +248,14 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="col-lg-3">
+                <!-- <div class="col-lg-3">
                     <div class="header__cart">
                         <ul>
                             <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
                             <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
                         </ul>
                         <div class="header__cart__price">item: <span>$150.00</span></div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="humberger__open">
@@ -169,27 +266,119 @@
     <!-- Header Section End -->
 
     <!-- Hero Section Begin -->
-    <section class="hero hero-normal">
+    <section class="hero">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
                     <div class="hero__categories">
                         <div class="hero__categories__all">
                             <i class="fa fa-bars"></i>
-                            <span>All departments</span>
+                            <span>All Categories</span>
                         </div>
                         <ul>
-                            <li><a href="#">Fresh Meat</a></li>
-                            <li><a href="#">Vegetables</a></li>
-                            <li><a href="#">Fruit & Nut Gifts</a></li>
-                            <li><a href="#">Fresh Berries</a></li>
-                            <li><a href="#">Ocean Foods</a></li>
-                            <li><a href="#">Butter & Eggs</a></li>
-                            <li><a href="#">Fastfood</a></li>
-                            <li><a href="#">Fresh Onion</a></li>
-                            <li><a href="#">Papayaya & Crisps</a></li>
-                            <li><a href="#">Oatmeal</a></li>
-                            <li><a href="#">Fresh Bananas</a></li>
+                            <li class="lights-category">
+                                <a href="#">Lights</a>
+                                <ul class ="lights-subcategories">
+                                    <li><a href="#">LED Lamps</a></li>
+                                    <li><a href="#">Wi-Fi LED Lights</a></li>
+                                    <li><a href="#">T-Bulb</a></li>
+                                    <li><a href="#">LED Battens</a></li>
+                                    <li><a href="#">LED Luminaires</a></li>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">CFL and GLS</a></li>
+                                    <li><a href="#">TL</a></li>
+                                    <li><a href="#">Modular Switches</a></li>
+                                    <li><a href="#">Lighting Accessories</a></li>
+                                    <li><a href="#">UVC Range</a></li>
+                                </ul>
+                            </li>
+                            <li class="kitchenappliances-category">
+                                <a href="#">Kitchen Appliances</a>
+                                <ul class ="kitchenappliances-subcategories">
+                                    <li><a href="#">Airfryers</a></li>
+                                    <li><a href="#">Mixer Grinders</a></li>
+                                    <li><a href="#">JMG</a></li>
+                                    <li><a href="#">OTG</a></li>
+                                    <li><a href="#">Juicer</a></li>
+                                    <li><a href="#">Induction Cooktops</a></li>
+                                    <li><a href="#">Hand Blenders</a></li>
+                                    <li><a href="#">Hand Mixers</a></li>
+                                    <li><a href="#">Kettles</a></li>
+                                    <li><a href="#">Toasters</a></li>
+                                    <li><a href="#">Sandwich Maker</a></li>
+                                </ul>
+                            </li>
+                            <li class="garment-category">
+                                <a href="#">Garment Care</a>
+                                <ul class ="garment-subcategories">
+                                    <li><a href="#">Garment Steamers</a></li>
+                                    <li><a href="#">Steam Irons</a></li>
+                                    <li><a href="#">Dry Irons</a></li>
+                                </ul>
+                            </li>
+                            <li class="homecare-category">
+                                <a href="#">Home Care</a>
+                                <ul class ="homecare-subcategories">
+                                    <li><a href="#">Air Purifiers</a></li>
+                                    <li><a href="#">Vacuum Cleaners</a></li>
+                                </ul>
+                            </li>
+                            <li class="malegrooming-category">
+                                <a href="#">Male Grooming</a>
+                                <ul class ="malegrooming-subcategories">
+                                    <li><a href="#">Trimmers</a></li>
+                                    <li><a href="#">OneBlade</a></li>
+                                    <li><a href="#">Body Groomers</a></li>
+                                    <li><a href="#">Multigrooming Kits</a></li>
+                                    <li><a href="#">Shavers</a></li>
+                                    <li><a href="#">Nose, Ear & Eyebrow Trimmer</a></li>
+                                </ul>
+                            </li>
+                            <li class="beauty-category">
+                                <a href="#">Beauty</a>
+                                <ul class ="beauty-subcategories">
+                                    <li><a href="#">Straighteners</a></li>
+                                    <li><a href="#">Heated Straightening Brush</a></li>
+                                    <li><a href="#">Dryers</a></li>
+                                    <li><a href="#">Multi Styling Kit</a></li>
+                                    <li><a href="#">Female Hair Removal</a></li>
+                                </ul>
+                            </li>
+                            <li class="oralhealthcare-category">
+                                <a href="#">Oral Health Care</a>
+                                <ul class ="oralhealthcare-subcategories">
+                                    <li><a href="#">1100</a></li>
+                                    <li><a href="#">3100</a></li>
+                                    <li><a href="#">4300</a></li>
+                                    <li><a href="#">C2</a></li>
+                                </ul>
+                            </li>
+                            <li class="motherandchildcare-category">
+                                <a href="#">Mother and Childcare</a>
+                                <ul class ="motherandchildcare-subcategories">
+                                    <li><a href="#">Breast Pump</a></li>
+                                    <li><a href="#">Infant Feeding</a></li>
+                                    <li><a href="#">Soothers</a></li>
+                                    <li><a href="#">Sterilization</a></li>
+                                    <li><a href="#">Sippers</a></li>
+                                </ul>
+                            </li>
+                            <li class="solarlight-category">
+                                <a href="#">Solar Lighting series</a>
+                                <ul class ="solarlight-subcategories">
+                                    <li><a href="#">Street Light</a></li>
+                                    <li><a href="#">Wall Light</a></li>
+                                    <li><a href="#">Flood Light</a></li>
+                                    <li><a href="#">Bollard Light (Big)</a></li>
+                                    <li><a href="#">Bollard Light (Small)</a></li>
+                                    <li><a href="#">Bollard Spike Light</a></li>
+                                    <li><a href="#">Garden Spike Spot</a></li>
+                                    <li><a href="#">Gate Top Light</a></li>
+                                    <li><a href="#">Up and Down Wall light</a></li>
+                                    <li><a href="#">Flame Light</a></li>
+                                    <li><a href="#">Indoor Suspended Light</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -246,21 +435,114 @@
                 <div class="col-lg-3 col-md-5">
                     <div class="sidebar">
                         <div class="sidebar__item">
-                            <h4>Department</h4>
+                            <h4>All Categories</h4>
                             <ul>
-                                <li><a href="#">Fresh Meat</a></li>
-                                <li><a href="#">Vegetables</a></li>
-                                <li><a href="#">Fruit & Nut Gifts</a></li>
-                                <li><a href="#">Fresh Berries</a></li>
-                                <li><a href="#">Ocean Foods</a></li>
-                                <li><a href="#">Butter & Eggs</a></li>
-                                <li><a href="#">Fastfood</a></li>
-                                <li><a href="#">Fresh Onion</a></li>
-                                <li><a href="#">Papayaya & Crisps</a></li>
-                                <li><a href="#">Oatmeal</a></li>
+                                <li class="lights-category">
+                                    <a href="#">Lights</a>
+                                    <ul class ="lights-subcategories">
+                                        <li><a href="#">LED Lamps</a></li>
+                                        <li><a href="#">Wi-Fi LED Lights</a></li>
+                                        <li><a href="#">T-Bulb</a></li>
+                                        <li><a href="#">LED Battens</a></li>
+                                        <li><a href="#">LED Luminaires</a></li>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">CFL and GLS</a></li>
+                                        <li><a href="#">TL</a></li>
+                                        <li><a href="#">Modular Switches</a></li>
+                                        <li><a href="#">Lighting Accessories</a></li>
+                                        <li><a href="#">UVC Range</a></li>
+                                    </ul>
+                                </li>
+                                <li class="kitchenappliances-category">
+                                    <a href="#">Kitchen Appliances</a>
+                                    <ul class ="kitchenappliances-subcategories">
+                                        <li><a href="#">Airfryers</a></li>
+                                        <li><a href="#">Mixer Grinders</a></li>
+                                        <li><a href="#">JMG</a></li>
+                                        <li><a href="#">OTG</a></li>
+                                        <li><a href="#">Juicer</a></li>
+                                        <li><a href="#">Induction Cooktops</a></li>
+                                        <li><a href="#">Hand Blenders</a></li>
+                                        <li><a href="#">Hand Mixers</a></li>
+                                        <li><a href="#">Kettles</a></li>
+                                        <li><a href="#">Toasters</a></li>
+                                        <li><a href="#">Sandwich Maker</a></li>
+                                    </ul>
+                                </li>
+                                <li class="garment-category">
+                                    <a href="#">Garment Care</a>
+                                    <ul class ="garment-subcategories">
+                                        <li><a href="#">Garment Steamers</a></li>
+                                        <li><a href="#">Steam Irons</a></li>
+                                        <li><a href="#">Dry Irons</a></li>
+                                    </ul>
+                                </li>
+                                <li class="homecare-category">
+                                    <a href="#">Home Care</a>
+                                    <ul class ="homecare-subcategories">
+                                        <li><a href="#">Air Purifiers</a></li>
+                                        <li><a href="#">Vacuum Cleaners</a></li>
+                                    </ul>
+                                </li>
+                                <li class="malegrooming-category">
+                                    <a href="#">Male Grooming</a>
+                                    <ul class ="malegrooming-subcategories">
+                                        <li><a href="#">Trimmers</a></li>
+                                        <li><a href="#">OneBlade</a></li>
+                                        <li><a href="#">Body Groomers</a></li>
+                                        <li><a href="#">Multigrooming Kits</a></li>
+                                        <li><a href="#">Shavers</a></li>
+                                        <li><a href="#">Nose, Ear & Eyebrow Trimmer</a></li>
+                                    </ul>
+                                </li>
+                                <li class="beauty-category">
+                                    <a href="#">Beauty</a>
+                                    <ul class ="beauty-subcategories">
+                                        <li><a href="#">Straighteners</a></li>
+                                        <li><a href="#">Heated Straightening Brush</a></li>
+                                        <li><a href="#">Dryers</a></li>
+                                        <li><a href="#">Multi Styling Kit</a></li>
+                                        <li><a href="#">Female Hair Removal</a></li>
+                                    </ul>
+                                </li>
+                                <li class="oralhealthcare-category">
+                                    <a href="#">Oral Health Care</a>
+                                    <ul class ="oralhealthcare-subcategories">
+                                        <li><a href="#">1100</a></li>
+                                        <li><a href="#">3100</a></li>
+                                        <li><a href="#">4300</a></li>
+                                        <li><a href="#">C2</a></li>
+                                    </ul>
+                                </li>
+                                <li class="motherandchildcare-category">
+                                    <a href="#">Mother and Childcare</a>
+                                    <ul class ="motherandchildcare-subcategories">
+                                        <li><a href="#">Breast Pump</a></li>
+                                        <li><a href="#">Infant Feeding</a></li>
+                                        <li><a href="#">Soothers</a></li>
+                                        <li><a href="#">Sterilization</a></li>
+                                        <li><a href="#">Sippers</a></li>
+                                    </ul>
+                                </li>
+                                <li class="solarlight-category">
+                                    <a href="#">Solar Lighting series</a>
+                                    <ul class ="solarlight-subcategories">
+                                        <li><a href="#">Street Light</a></li>
+                                        <li><a href="#">Wall Light</a></li>
+                                        <li><a href="#">Flood Light</a></li>
+                                        <li><a href="#">Bollard Light (Big)</a></li>
+                                        <li><a href="#">Bollard Light (Small)</a></li>
+                                        <li><a href="#">Bollard Spike Light</a></li>
+                                        <li><a href="#">Garden Spike Spot</a></li>
+                                        <li><a href="#">Gate Top Light</a></li>
+                                        <li><a href="#">Up and Down Wall light</a></li>
+                                        <li><a href="#">Flame Light</a></li>
+                                        <li><a href="#">Indoor Suspended Light</a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </div>
-                        <div class="sidebar__item">
+                        <!-- <div class="sidebar__item">
                             <h4>Price</h4>
                             <div class="price-range-wrap">
                                 <div class="price-range ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content"
@@ -342,7 +624,7 @@
                                     <input type="radio" id="tiny">
                                 </label>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="sidebar__item">
                             <div class="latest-product__text">
                                 <h4>Latest Products</h4>
@@ -420,108 +702,108 @@
                                 <div class="col-lg-4">
                                     <div class="product__discount__item">
                                         <div class="product__discount__item__pic set-bg"
-                                            data-setbg="img/product/discount/pd-1.jpg">
-                                            <div class="product__discount__percent">-20%</div>
-                                            <ul class="product__item__pic__hover">
+                                            data-setbg="imgProduct/Product1.png">
+                                            <!-- <div class="product__discount__percent">-20%</div> -->
+                                            <!-- <ul class="product__item__pic__hover">
                                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                            </ul>
+                                            </ul> -->
                                         </div>
                                         <div class="product__discount__item__text">
-                                            <span>Dried Fruit</span>
-                                            <h5><a href="#">Raisin’n’nuts</a></h5>
-                                            <div class="product__item__price">$30.00 <span>$36.00</span></div>
+                                            <span>Kitchen Appliances</span>
+                                            <h5><a href="#">Airfryers </a></h5>
+                                            <div class="product__item__price">₹16995</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="product__discount__item">
                                         <div class="product__discount__item__pic set-bg"
-                                            data-setbg="img/product/discount/pd-2.jpg">
+                                            data-setbg="imgProduct/Product3.png">
                                             <div class="product__discount__percent">-20%</div>
-                                            <ul class="product__item__pic__hover">
+                                            <!-- <ul class="product__item__pic__hover">
                                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                            </ul>
+                                            </ul> -->
                                         </div>
                                         <div class="product__discount__item__text">
-                                            <span>Vegetables</span>
-                                            <h5><a href="#">Vegetables’package</a></h5>
-                                            <div class="product__item__price">$30.00 <span>$36.00</span></div>
+                                            <span>oralhealthcare</span>
+                                            <h5><a href="#">Sonic electric toothbrush</a></h5>
+                                            <div class="product__item__price">₹2195</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="product__discount__item">
                                         <div class="product__discount__item__pic set-bg"
-                                            data-setbg="img/product/discount/pd-3.jpg">
+                                            data-setbg="imgProduct/Product4.png">
                                             <div class="product__discount__percent">-20%</div>
-                                            <ul class="product__item__pic__hover">
+                                            <!-- <ul class="product__item__pic__hover">
                                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                            </ul>
+                                            </ul> -->
                                         </div>
                                         <div class="product__discount__item__text">
-                                            <span>Dried Fruit</span>
-                                            <h5><a href="#">Mixed Fruitss</a></h5>
-                                            <div class="product__item__price">$30.00 <span>$36.00</span></div>
+                                            <span>Kitchen Appliances</span>
+                                            <h5><a href="#">Mixer Grinder</a></h5>
+                                            <div class="product__item__price">₹9595</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="product__discount__item">
                                         <div class="product__discount__item__pic set-bg"
-                                            data-setbg="img/product/discount/pd-4.jpg">
+                                            data-setbg="imgProduct/Product8.png">
                                             <div class="product__discount__percent">-20%</div>
-                                            <ul class="product__item__pic__hover">
+                                            <!-- <ul class="product__item__pic__hover">
                                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                            </ul>
+                                            </ul> -->
                                         </div>
                                         <div class="product__discount__item__text">
-                                            <span>Dried Fruit</span>
-                                            <h5><a href="#">Raisin’n’nuts</a></h5>
-                                            <div class="product__item__price">$30.00 <span>$36.00</span></div>
+                                            <span>Male Grooming</span>
+                                            <h5><a href="#">Beard trimmer BT3102/15</a></h5>
+                                            <div class="product__item__price">₹1495</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="product__discount__item">
                                         <div class="product__discount__item__pic set-bg"
-                                            data-setbg="img/product/discount/pd-5.jpg">
+                                            data-setbg="imgProduct/Product6.png">
                                             <div class="product__discount__percent">-20%</div>
-                                            <ul class="product__item__pic__hover">
+                                            <!-- <ul class="product__item__pic__hover">
                                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                            </ul>
+                                            </ul> -->
                                         </div>
                                         <div class="product__discount__item__text">
-                                            <span>Dried Fruit</span>
-                                            <h5><a href="#">Raisin’n’nuts</a></h5>
-                                            <div class="product__item__price">$30.00 <span>$36.00</span></div>
+                                            <span>Garment Care</span>
+                                            <h5><a href="#">Steam Irons 2400 Watts</a></h5>
+                                            <div class="product__item__price">₹4495</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="product__discount__item">
                                         <div class="product__discount__item__pic set-bg"
-                                            data-setbg="img/product/discount/pd-6.jpg">
+                                            data-setbg="imgProduct/Product7.png">
                                             <div class="product__discount__percent">-20%</div>
-                                            <ul class="product__item__pic__hover">
+                                            <!-- <ul class="product__item__pic__hover">
                                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                            </ul>
+                                            </ul> -->
                                         </div>
                                         <div class="product__discount__item__text">
-                                            <span>Dried Fruit</span>
-                                            <h5><a href="#">Raisin’n’nuts</a></h5>
-                                            <div class="product__item__price">$30.00 <span>$36.00</span></div>
+                                            <span>Home Care</span>
+                                            <h5><a href="#">Air Purifiers</a></h5>
+                                            <div class="product__item__price">₹35955</div>
                                         </div>
                                     </div>
                                 </div>
@@ -555,7 +837,7 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-1.jpg">
+                                <div class="product__item__pic set-bg" data-setbg="imgProduct/Product9.png">
                                     <ul class="product__item__pic__hover">
                                         <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                         <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -563,14 +845,14 @@
                                     </ul>
                                 </div>
                                 <div class="product__item__text">
-                                    <h6><a href="#">Crab Pool Security</a></h6>
-                                    <h5>$30.00</h5>
+                                    <h6><a href="#">Juicer Mixer Grinders 600-500 Watts</a></h6>
+                                    <h5>₹5995</h5>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-2.jpg">
+                                <div class="product__item__pic set-bg" data-setbg="imgProduct/Product10.png">
                                     <ul class="product__item__pic__hover">
                                         <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                         <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -578,14 +860,14 @@
                                     </ul>
                                 </div>
                                 <div class="product__item__text">
-                                    <h6><a href="#">Crab Pool Security</a></h6>
-                                    <h5>$30.00</h5>
+                                    <h6><a href="#">Oven Toast Grill</a></h6>
+                                    <h5>₹16995</h5>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-3.jpg">
+                                <div class="product__item__pic set-bg" data-setbg="imgProduct/Product11.png">
                                     <ul class="product__item__pic__hover">
                                         <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                         <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -593,14 +875,14 @@
                                     </ul>
                                 </div>
                                 <div class="product__item__text">
-                                    <h6><a href="#">Crab Pool Security</a></h6>
-                                    <h5>$30.00</h5>
+                                    <h6><a href="#">Juicers Masticating</a></h6>
+                                    <h5>₹17995</h5>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-4.jpg">
+                                <div class="product__item__pic set-bg" data-setbg="imgProduct/Product12.png">
                                     <ul class="product__item__pic__hover">
                                         <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                         <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -608,14 +890,14 @@
                                     </ul>
                                 </div>
                                 <div class="product__item__text">
-                                    <h6><a href="#">Crab Pool Security</a></h6>
-                                    <h5>$30.00</h5>
+                                    <h6><a href="#">Juicers Centrifugal</a></h6>
+                                    <h5>₹8995</h5>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-5.jpg">
+                                <div class="product__item__pic set-bg" data-setbg="imgProduct/Product13.png">
                                     <ul class="product__item__pic__hover">
                                         <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                         <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -623,14 +905,14 @@
                                     </ul>
                                 </div>
                                 <div class="product__item__text">
-                                    <h6><a href="#">Crab Pool Security</a></h6>
-                                    <h5>$30.00</h5>
+                                    <h6><a href="#">Citrus Press</a></h6>
+                                    <h5>₹1895</h5>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-6.jpg">
+                                <div class="product__item__pic set-bg" data-setbg="imgProduct/Product14.png">
                                     <ul class="product__item__pic__hover">
                                         <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                         <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -638,14 +920,14 @@
                                     </ul>
                                 </div>
                                 <div class="product__item__text">
-                                    <h6><a href="#">Crab Pool Security</a></h6>
-                                    <h5>$30.00</h5>
+                                    <h6><a href="#">Induction Cooktop</a></h6>
+                                    <h5>₹5995</h5>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-7.jpg">
+                                <div class="product__item__pic set-bg" data-setbg="imgProduct/Product15.png">
                                     <ul class="product__item__pic__hover">
                                         <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                         <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -653,14 +935,14 @@
                                     </ul>
                                 </div>
                                 <div class="product__item__text">
-                                    <h6><a href="#">Crab Pool Security</a></h6>
-                                    <h5>$30.00</h5>
+                                    <h6><a href="#">Hand Blenders</a></h6>
+                                    <h5>₹2095</h5>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-8.jpg">
+                                <div class="product__item__pic set-bg" data-setbg="imgProduct/Product18.png">
                                     <ul class="product__item__pic__hover">
                                         <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                         <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -668,14 +950,14 @@
                                     </ul>
                                 </div>
                                 <div class="product__item__text">
-                                    <h6><a href="#">Crab Pool Security</a></h6>
-                                    <h5>$30.00</h5>
+                                    <h6><a href="#">Toasters</a></h6>
+                                    <h5>₹3495</h5>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-9.jpg">
+                                <div class="product__item__pic set-bg" data-setbg="imgProduct/Product16.png">
                                     <ul class="product__item__pic__hover">
                                         <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                         <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -683,14 +965,14 @@
                                     </ul>
                                 </div>
                                 <div class="product__item__text">
-                                    <h6><a href="#">Crab Pool Security</a></h6>
-                                    <h5>$30.00</h5>
+                                    <h6><a href="#">Hand Mixers</a></h6>
+                                    <h5>₹2795</h5>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-10.jpg">
+                                <div class="product__item__pic set-bg" data-setbg="imgProduct/Product17.png">
                                     <ul class="product__item__pic__hover">
                                         <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                         <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -698,14 +980,14 @@
                                     </ul>
                                 </div>
                                 <div class="product__item__text">
-                                    <h6><a href="#">Crab Pool Security</a></h6>
-                                    <h5>$30.00</h5>
+                                    <h6><a href="#">Kettles</a></h6>
+                                    <h5>₹3995</h5>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-11.jpg">
+                                <div class="product__item__pic set-bg" data-setbg="imgProduct/Product19.png">
                                     <ul class="product__item__pic__hover">
                                         <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                         <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -713,14 +995,14 @@
                                     </ul>
                                 </div>
                                 <div class="product__item__text">
-                                    <h6><a href="#">Crab Pool Security</a></h6>
-                                    <h5>$30.00</h5>
+                                    <h6><a href="#">Sandwich Maker</a></h6>
+                                    <h5>₹3795</h5>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-12.jpg">
+                                <div class="product__item__pic set-bg" data-setbg="imgProduct/Product20.png">
                                     <ul class="product__item__pic__hover">
                                         <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                         <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -728,8 +1010,8 @@
                                     </ul>
                                 </div>
                                 <div class="product__item__text">
-                                    <h6><a href="#">Crab Pool Security</a></h6>
-                                    <h5>$30.00</h5>
+                                    <h6><a href="#">Toaster</a></h6>
+                                    <h5>₹1895</h5>
                                 </div>
                             </div>
                         </div>
@@ -744,6 +1026,9 @@
             </div>
         </div>
     </section>
+    <!-- <div class="section-title product__discount__title">
+        <h2>Lights</h2>
+    </div> -->
     <!-- Product Section End -->
 
     <!-- Footer Section Begin -->
@@ -753,7 +1038,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="footer__about">
                         <div class="footer__about__logo">
-                            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                            <h1 class="Tophead">Sagar Ventures</h1>
                         </div>
                         <ul>
                             <li>Address: 60-49 Road 11378 New York</li>
@@ -767,30 +1052,18 @@
                         <h6>Useful Links</h6>
                         <ul>
                             <li><a href="#">About Us</a></li>
-                            <li><a href="#">About Our Shop</a></li>
-                            <li><a href="#">Secure Shopping</a></li>
-                            <li><a href="#">Delivery infomation</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Our Sitemap</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="#">Who We Are</a></li>
-                            <li><a href="#">Our Services</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Innovation</a></li>
-                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <div class="footer__widget">
-                        <h6>Join Our Newsletter Now</h6>
+                        <!-- <h6>Join Our Newsletter Now</h6>
                         <p>Get E-mail updates about our latest shop and special offers.</p>
                         <form action="#">
                             <input type="text" placeholder="Enter your mail">
                             <button type="submit" class="site-btn">Subscribe</button>
-                        </form>
+                        </form> -->
                         <div class="footer__widget__social">
                             <a href="#"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-instagram"></i></a>
@@ -804,7 +1077,7 @@
                 <div class="col-lg-12">
                     <div class="footer__copyright">
                         <div class="footer__copyright__text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">QuestBug</a>
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
                         <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div>
                     </div>
