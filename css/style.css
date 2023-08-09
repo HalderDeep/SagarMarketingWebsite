@@ -637,6 +637,44 @@ ol {
 	display: block;
 }
 
+    /* Hide subcategories by default */
+    .lights-subcategories {
+        display: none;
+    }
+    /* Hide subcategories by default */
+    .kitchenappliances-subcategories {
+        display: none;
+    }
+    /* Hide subcategories by default */
+    .garment-subcategories {
+        display: none;
+    }
+    /* Hide subcategories by default */
+    .homecare-subcategories {
+        display: none;
+    }
+    /* Hide subcategories by default */
+    .malegrooming-subcategories {
+        display: none;
+    }
+    /* Hide subcategories by default */
+    .beauty-subcategories {
+        display: none;
+    }
+    /* Hide subcategories by default */
+    .oralhealthcare-subcategories {
+        display: none;
+    }
+    /* Hide subcategories by default */
+    .motherandchildcare-subcategories {
+        display: none;
+    }
+    /* Hide subcategories by default */
+    .solarlight-subcategories {
+        display: none;
+    }
+
+
 .hero__search {
 	overflow: hidden;
 	margin-bottom: 30px;
