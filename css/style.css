@@ -29,7 +29,10 @@
 /*----------------------------------------*/
 /* Template default CSS
 /*----------------------------------------*/
-
+html {
+	scroll-behavior: smooth;
+  }
+  
 html,
 body {
 	height: 100%;
@@ -123,7 +126,7 @@ ol {
 .section-title h2 {
 	color: #1c1c1c;
 	font-weight: 700;
-	position: relative;
+	/* position: relative; */
 }
 
 .section-title h2:after {
